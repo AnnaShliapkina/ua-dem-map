@@ -6,9 +6,9 @@
   "scripts": {
     "start": "vite --open",
     "start-local": "vite --config ../../vite.config./",
-    "build": "vite build ",
+    "build": "vite build",
     "preview": "vite preview ",
-    "copy-data": "xcopy /s /y \"src\\data\\*.*\" \"dist\\data\"",
+    "copy-data": "copy /s /y \"src\\data\\*.*\" \"dist\\data\"",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

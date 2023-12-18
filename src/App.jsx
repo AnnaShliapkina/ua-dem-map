@@ -12,14 +12,14 @@ import IconClusterLayer from "./icon-cluster-layer";
 const DATA_URL = "data/new_dataset_DSNS.json"; // eslint-disable-line
 
 const MAP_VIEW = new MapView({ repeat: true });
-// const INITIAL_VIEW_STATE = {
-//   longitude: 37.5434,
-//   latitude: 47.0971,
-//   zoom: 5,
-//   maxZoom: 15,
-//   pitch: 40.5,
-//   bearing: 0,
-// };
+const INITIAL_VIEW_STATE = {
+  longitude: 0,
+  latitude: 0,
+  zoom: 5,
+  maxZoom: 15,
+  pitch: 40.5,
+  bearing: 0,
+};
 
 const MAP_STYLE = "https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json";
 

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "homepage": "https://annashliapkina.github.io/UA_deminer_IconStyle/",
+  "homepage": "/UA_deminer_IconStyle",
   "scripts": {
     "start": "vite --open",
     "start-local": "vite --config ../../vite.config./",

@@ -5,6 +5,7 @@ import maplibregl from "maplibre-gl";
 import DeckGL from "@deck.gl/react";
 import { MapView } from "@deck.gl/core";
 import { IconLayer } from "@deck.gl/layers";
+import { AtlasIcon } from "./data/location-icon-atlas.png";
 
 import IconClusterLayer from "../icon-cluster-layer";
 
@@ -58,7 +59,7 @@ function renderTooltip(info) {
 }
 
 /* eslint-disable react/no-deprecated */
-export default function App({ data = DATA_URL, iconMapping = "./data/location-icon-mapping.json", iconAtlas = "./data/location-icon-atlas.png", showCluster = true, mapStyle = MAP_STYLE }) {
+export default function App({ data = DATA_URL, iconMapping = "./data/location-icon-mapping.json", iconAtlas = AtlasIcon, showCluster = true, mapStyle = MAP_STYLE }) {
   const [hoverInfo, setHoverInfo] = useState({});
 
   const hideTooltip = () => {

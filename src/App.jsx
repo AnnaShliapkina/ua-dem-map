@@ -6,7 +6,7 @@ import DeckGL from "@deck.gl/react";
 import { MapView } from "@deck.gl/core";
 import { IconLayer } from "@deck.gl/layers";
 
-import IconClusterLayer from "../icon-cluster-layer";
+import IconClusterLayer from "./icon-cluster-layer";
 
 // Source data CSV
 const DATA_URL = "data/new_dataset_DSNS.json"; // eslint-disable-line

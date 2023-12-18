@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "homepage": "/UA_deminer_IconStyle",
+  "homepage": "/ua-dem-map",
   "scripts": {
     "start": "vite --open",
     "start-local": "vite --config ../../vite.config./",
